@@ -10,3 +10,4 @@ The guitar hero of Guns'n Roses is Slash
 Sorry, we don't know who is the guitar hero of Ricchi e Poveri
 ```
 
+[![Run on Repl.it](https://repl.it/badge/github/sayna47/guitarists)](https://repl.it/github/sayna47/guitarists)
