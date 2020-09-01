@@ -1,9 +1,11 @@
-#! /usr/bin/env python3
+c#! /usr/bin/env python3
 
-from guitarists import check_guitarist, check_band
+from guitarists_package import guitarists_band_check as gbc
 
-check_guitarist("Kirk Hammet")
-check_guitarist("Young Signorino")
-check_band("Guns'n Roses")
-check_band("Ricchi e Poveri")
+a = gbc.check_band("AD/DC")
+if a!= False:
+  print(a)
+else:
+  print("no")
+
 
