@@ -8,20 +8,16 @@ In this repository there is a main.py that take the name of a band or a guitaris
 Authentication is required when using the main file, for registration see point below.
 the application by defualt accept guitarists name if you wanted to check for bands you have to add -b to your request. 
 
-```
-usage: This program checks for a band or a famuse guitarists in a band
-       [-h] [-b] [-v] -p P -u U n
-
 positional arguments:
-  n           insert the name of the guitarist or the band you would like to check
+*  n: insert the name of the guitarist or the band you would like to check
 
 optional arguments:
-  -h, --help  show this help message and exit
-  -b          check for bands
-  -v          Decide the level of verbosity
-  -p P        password
-  -u U        usernamename(requires -p)
-```
+* -h, --help: show this help message and exit
+* -b: check for bands
+* -v: Decide the level of verbosity
+* -p: password
+* -u: usernamename(requires -p)
+
 
 ```
 ~/guitarists$ python main.py 'Slipknot' -b -v -u sayna -p 12345
